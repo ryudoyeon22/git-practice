@@ -1,0 +1,244 @@
+    1  pwd
+    2  ls
+    3  cd ..
+    4  pwd
+    5  pwd
+    6  ls
+    7  pwd
+    8  ls
+    9  cd test
+   10  cd desktop
+   11  ls
+   12  cd test
+   13  clear
+   14  cd root
+   15  cd ..
+   16  cd ..
+   17  clear
+   18  git --version
+   19  git config --list
+   20  git config user.name "Doyeon Ryu"
+   21  git config --global user.name "Doyeon Ryu"
+   22  git config --global user.email ryudoyeon@naver.com
+   23  git config --global init.defaultBranch main
+   24  git config --list
+   25  git config user.name
+   26  ls
+   27  ls
+   28  ls
+   29  cd Desktop
+   30  ls
+   31  pwd
+   32  cd test
+   33  pwd
+   34  ls
+   35  ls -l
+   36  ls -lh
+   37  clear
+   38  pwd
+   39  ls
+   40  cp testcopy.pdf Lab1_202235873_유도연.pdf 
+   41  cp Lab1_202235873_유도연.pdf testcopy.pdf
+   42  ls
+   43  cd test1
+   44  ls
+   45  cp -r ../test2 .
+   46  ls
+   47  cd ..
+   48  cd ..
+   49  cd test
+   50  mkdir new_directory
+   51  ls
+   52  clear
+   53  pwd
+   54  ls -lh
+   55  ls -lh file_list.txt
+   56  ls -lh > file_list.txt
+   57  cat file_list.txt
+   58  ls -lh >> file_list.txt
+   59  cat file+list.txt
+   60  cat file_list.txt
+   61  ls
+   62  cat words.txt
+   63  sort < words.txt > sorted_words.txt
+   64  ct sorted_words.txt 
+   65  cat sorted_words.txt 
+   66  ls -lh | less
+   67  ls | w -l
+   68  ls | wc -l
+   69  echo print out the text
+   70  echo *
+   71  echo ~
+   72  ls -l --reverse --human-readable
+   73  chmod 660 words.txt
+   74  ls -lh
+   75  chmod 600 words.txt
+   76  ls -lh
+   77  chmod 777 words.txt
+   78  ls -lh
+   79  nano words.txt
+   80  sh words.txt
+   81  git --version
+   82  git config --list
+   83  git config user.name
+   84  git init
+   85  ls -lha
+   86  git status
+   87  git add file_list.txt
+   88  cd desktop
+   89  ls
+   90  cd test
+   91  ls
+   92  git add file_list.txt 
+   93  git status
+   94  ls
+   95  get add print test.txt 
+   96  git add print test.txt 
+   97  ls
+   98  git add print_test.txt 
+   99  ls
+  100  git add README.md 
+  101  git add hello_world.txt 
+  102  git add words.txt 
+  103  git status
+  104  nano words.txt
+  105  git add words.txt
+  106  git rm -cached hello_world.txt 
+  107  git rm --cached hello_world.txt 
+  108  git add hello_world.txt 
+  109  get commit -m "initial commit"
+  110  git commit -m "initial commit"
+  111  git log
+  112  git mv words.txt new_words.txt
+  113  git status
+  114  nano new_words.txt
+  115  git add new_words.txt 
+  116  git status
+  117  nano new_words.txt
+  118  git reset HEAD new_words.txt
+  119  git status
+  120  git add new_words.txt 
+  121  git status
+  122  git restore -- staged new_words.txt
+  123  git restore --staged new_words.txt
+  124  git status
+  125  nano new_words.txt
+  126  cd ..
+  127  cd ..
+  128  q
+  129  git brance -d main
+  130  git branch -d main
+  131  git checkout C:/Users/ryudo
+  132  git checkout 'C:/Users/ryudo'
+  133  exit
+  134  git checkout
+  135  cd desktop
+  136  cd test
+  137  git init
+  138  ls -lha
+  139  git status
+  140  git add README.md 
+  141  git status
+  142  nano words.txt
+  143  git add hello_world.txt 
+  144  git add words.txt 
+  145  git status
+  146  nano words.txt 
+  147  git status
+  148  git add words.txt 
+  149  git add .
+  150  git status
+  151  git rm --cached print_test.txt 
+  152  git status
+  153  nano .gitignore
+  154  git add.
+  155  git add .
+  156  git status
+  157  commit -m "initial commit"
+  158  git commit -m "initial commit"
+  159  git log
+  160  git branch
+  161  git status
+  162  git rm --cached file_list.txt 
+  163  git status
+  164  git commit -m "untrack file_lit.txt"
+  165  git mv words.txt new_words.txt
+  166  ls -lha
+  167  git log
+  168  nano new_words.txt
+  169  git add.
+  170  git add .
+  171  git status
+  172  git reset HEAD new_words.txt
+  173  git status
+  174  git add new_words.txt 
+  175  git status
+  176  git restore --staged new_words.txt
+  177  git status
+  178  git add new_words.txt 
+  179  git remote add origin http://github.com/ryudoyeon22/git-practice.git
+  180  git remote -v
+  181  git push -u origin main
+  182  git config --global user.name "Doyeon Ryu"
+  183  git config --global user.email ryudoyeon@naver.com
+  184  git push -u origin main
+  185  git push -u origin mainq
+  186  git push -u origin mainq
+  187  cd ..desktop
+  188  cd desktop
+  189  cd test
+  190  git remote add origin http://github.com/ryudoyeon22/git-practice.git
+  191  git push -u origin master
+  192  git push -u origin main
+  193  git remote -v
+  194  cd desktop
+  195  cd test
+  196  git config
+  197  git config --list
+  198  git config --global user.name "Doyeon Ryu"
+  199  git config --global user.email ryudoyeon@naver.com
+  200  git init
+  201  cd ..
+  202  cd OSS_test
+  203  git config --global user.name "Doyeon Ryu"
+  204  git config --global user.email ryudoyeon@naver.com
+  205  git init
+  206  ls -lha
+  207  git commit -m "initial commit"
+  208  git add .
+  209  git commit -m "initial commit"
+  210  git status
+  211  git config --global init.defaultBranch main
+  212  cd ..
+  213  cd ryudo
+  214  cd desktop
+  215  cd OSS
+  216  pwd
+  217  ls -lh
+  218  ls -lh
+  219  ls -lh
+  220  cat words.txt 
+  221  sort < words.txt >sorted_words.txt
+  222  cat sorted_words.txt 
+  223  ls -lh | less
+  224  echo print out the text
+  225  echo *
+  226  echo ~
+  227  ls -l --reverse -- human-readable
+  228  ls -l --reverse -- human-readable
+  229  ls -l--reverse --human-readable
+  230  ls -l --reverse --human-readable
+  231  ls
+  232  ls -l --reverse --human-readable
+  233  chmod 777 test.txt 
+  234  ls -l --reverse --human-readable
+  235  ls -lh
+  236  chmod 600 words.txt 
+  237  ls -lh
+  238  chmod 644 words.txt 
+  239  ls -lh
+  240  nano myscript.sh
+  241  sh myscript.sh 
+  242  history > history_command.txt
+  243  cat history
+  244  history > woeds.txt
